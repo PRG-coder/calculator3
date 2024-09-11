@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.container {
+    display: flex;
+    background-color: rgb(153, 149, 149);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.calculator {
+    background-color: black;
+    padding: 10px;
+}
+
+.calculator form input {
+    height: 50px;
+    width: 50px;
+    font-size: 35px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+}
+
+.calculator form input:hover {
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: black;
+    border-radius: 40px;
+
+}
+
+form input.clear {
+    height: 50px;
+    width: 50px;
+    font-size: 35px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+}
+
+form input.clear:hover {
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: orangered;
+    border-radius: 40px;
+    color: white;
+
+
+
+}
+
+form input.del {
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+form input.del:hover {
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+form input.inpt-btn {
+    background-color: green;
+
+}
+
+form input.inpt-btn:hover {
+    background-color: green;
+
+}
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+    border: 0;
+
+
+}
+
+form .display input {
+    text-align: right;
+    font-size: 45px;
+    background-color: black;
+    box-shadow: none;
+    width: 225px;
+    color: white;
+    border: 0px solid black;
+    outline: none;
+
+}
+
+form .display input:hover {
+    text-align: right;
+    font-size: 45px;
+    background-color: black;
+    box-shadow: none;
+    width: 225px;
+    color: white;
+    border: 0px solid black;
+}
+
+form input.equal {
+    width: 110px;
+    background-color: green;
+
+    text-align: center;
+}
+
+form input.equal:hover {
+    width: 110px;
+    background-color: green;
+
+
+
+}
